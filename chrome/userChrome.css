@@ -1,12 +1,13 @@
 #tabbrowser-tabs {
 	--user-tab-rounding: 3px;
 }
+
 tab.tabbrowser-tab .tab-background {
 	border-radius: var(--user-tab-rounding) var(--user-tab-rounding) 0px 0px !important;
 	margin-block: 1px 0 !important;
 }
 	tab.tabbrowser-tab .tab-background[selected="true"] {
-	  background: #f9f9fb !important;
+		background: #f9f9fb !important;
 	}
 
 #tabs-newtab-button:hover * {
@@ -22,7 +23,7 @@ tab.tabbrowser-tab .tab-background {
 }
 
 .titlebar-buttonbox.titlebar-color {
-  color: black;
+	color: black;
 }
 
 #scrollbutton-up, #scrollbutton-down {
