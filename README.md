@@ -1,8 +1,9 @@
 # Firefox Proton UI fix
 Restores the classic tab style (Firefox 89 or newer)
 
-The new **Proton UI** appeared in Firefox 89 and I'm one of those people who want back the **classic tabs**.
+The new **Proton UI** appeared in Firefox 89 and I'm one of those people who want back the **classic tabs**.  
 
+![plot](./images/overview1.png)
 
 ## Motivation
 
