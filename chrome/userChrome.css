@@ -1,0 +1,31 @@
+#tabbrowser-tabs {
+	--user-tab-rounding: 3px;
+}
+tab.tabbrowser-tab .tab-background {
+	border-radius: var(--user-tab-rounding) var(--user-tab-rounding) 0px 0px !important;
+	margin-block: 1px 0 !important;
+}
+	tab.tabbrowser-tab .tab-background[selected="true"] {
+	  background: #f9f9fb !important;
+	}
+
+#tabs-newtab-button:hover * {
+	background-color: #B9B9B9 !important;
+}
+
+.tabbrowser-tab[usercontextid] > .tab-stack > .tab-background > .tab-context-line {
+	margin: 0px max(calc(var(--user-tab-rounding) - 3px), 0px) !important;
+}
+
+.titlebar-color {
+	background-color: lightgray;
+}
+
+.titlebar-buttonbox.titlebar-color {
+  color: black;
+}
+
+#scrollbutton-up, #scrollbutton-down {
+	border-top-width: 1px !important;
+	border-bottom-width: 0 !important;
+}
