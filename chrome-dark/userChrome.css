@@ -1,0 +1,43 @@
+/* Adjust tab corner shape, optionally remove space below tabs */
+#tabbrowser-tabs {
+	--user-tab-rounding: 3px;
+}
+tab.tabbrowser-tab .tab-background {
+	border-radius: var(--user-tab-rounding) var(--user-tab-rounding) 0px 0px !important;
+	margin-block: 1px 0 !important;
+	background-color: #202020;
+}
+tab.tabbrowser-tab .tab-background[selected="true"] {
+  /*background: #f9f9fb !important;*/
+}
+
+
+/* New tab button */
+#tabs-newtab-button:hover * {
+	/*background-color: #B9B9B9 !important;*/
+}
+
+/* Container color bar visibility */
+.tabbrowser-tab[usercontextid] > .tab-stack > .tab-background > .tab-context-line {
+	margin: 0px max(calc(var(--user-tab-rounding) - 3px), 0px) !important;
+}
+
+/* Title bar background */
+.titlebar-color{
+	/*color: -moz-accent-color-foreground;
+	background-color: -moz-accent-color;*/
+	color: white !important;
+	background-color: #000000;
+}
+
+/* Windows buttons */
+.titlebar-buttonbox.titlebar-color {
+  /*color: -moz-accent-color-foreground;*/
+  /*background: lightgray;*/
+  color: black;
+}
+
+#scrollbutton-up, #scrollbutton-down {
+	border-top-width: 1px !important;
+	border-bottom-width: 0 !important;
+}

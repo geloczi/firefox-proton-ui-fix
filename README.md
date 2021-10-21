@@ -45,3 +45,6 @@ C:\Users\YourUsername\AppData\Roaming\Mozilla\Firefox\Profiles\abcd123.default-r
 ### 5. Restart Firefox
 
 Restart Firefox to apply the CSS fix.  
+
+## Dark theme
+Dark theme fix available, just copy the CSS files from the **chrome-dark** folder.
